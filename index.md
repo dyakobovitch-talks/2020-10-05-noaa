@@ -12,9 +12,9 @@ longitude: "0"       # decimal longitude of the workshop venue (use https://www.
 humandate: "Oct 5-8, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "1:00 pm - 5:00 pm EST"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-10-05      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2010-10-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+enddate: 2020-10-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["David Yakobovitch", "Thomas Guignard", "Hamid Mokhtarzadeh", "Annajiat Rasel"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Lindsay Abrams", "Julia Engdahl", "TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Lindsay Abrams", "Julia Engdahl", "Scott Sherman"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["david@yakobovitch.com","annajiat@gmail.com", "thomas.guignard@gmail.com", "hamid@organicnavigation.com", "lindsay.abrams@noaa.gov"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: "https://pad.carpentries.org/2020-10-05-noaa" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -151,7 +151,7 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
+  <strong>Where:</strong> This training will take place via Google Meet.
   The instructors will provide you with the information you will need to connect to this meeting.
 </p>
 {% endif %}
@@ -176,7 +176,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must participate with a PC/laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have sufficient administrative privileges to have the specific software packages installed (listed <a href="#setup">below</a>).  Having full administrative privileges can be helpful, but is not generally required.
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have sufficient administrative privileges to have the specific software packages installed (listed <a href="#setup">below</a>). Depending on your setup, you may need administrative privileges to your machine in order to successfully install those packages. Please try to install the necessary software <strong>in advance of the workshop</strong> and contact your IT department if you are unable to.
 </p>
 
 {% comment %}
@@ -389,6 +389,11 @@ please preview your site before committing, and make sure to run
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
+
+<p>
+	<strong>Please work with your IT department to install the following software on your work laptop, or follow the instructions below to install on a personal laptop.</strong>
+</p>
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
